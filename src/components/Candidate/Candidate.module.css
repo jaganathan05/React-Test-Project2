@@ -1,0 +1,18 @@
+/* Candidates.css */
+.candidates-container {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-around; /* Distribute items evenly */
+    margin-top: 20%; /* Add some space above the container */
+  }
+  
+  .candidates-container div {
+    width: 150px; /* Set a fixed width for each candidate */
+    text-align: center; /* Center-align the text */
+    border: 1px solid #ccc; /* Add a border for visual separation */
+    padding: 10px; /* Add padding inside each candidate box */
+  }
+  
+  .candidates-container div:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+  }
+  
